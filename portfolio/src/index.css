@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@layer base{
+    body {
+        @apply font-[Oswald];
+        @apply font-medium;
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;   
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(89, 129, 223, 0.8),
+        hsla(240, 88%, 10%, 0.8)
+    )!important;
+}
+
+/* Skills.css */
+
+/* Updated CSS Animation for horizontal movement */
+/* Skills.css */
+
+/* Updated CSS Animation for circular horizontal movement */
+@keyframes circularHorizontalMove {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.skills-list-container {
+  display: flex;
+  overflow: hidden; /* Ensure the content doesn't overflow its container */
+  position: relative; /* Required for absolute positioning of the skills list */
+  animation: circularHorizontalMove 10s linear infinite;
+}
+
+
+  
+  /* Rest of the styles for .skills-list and .skills-list li */
+  /* ... */
+  
