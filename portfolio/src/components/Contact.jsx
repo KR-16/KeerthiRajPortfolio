@@ -53,7 +53,7 @@ const Contact = () => {
           </div>
           <div className='flex justify-center items-center'>
             <a href="https://github.com/KR-16/Documents/blob/main/Resume/Keerthi%20Raj%20Resume.pdf" target="_blank" rel='noopener noreferrer' download>
-              <button className='text-white border-2 hover:bg-[#fd726d] hover:border-[#fd726d] px-6 py-4 flex items-center'>Resume</button>
+              <button className='text-white border-2 hover:bg-[#fd726d] hover:border-[#fd726d] px-6 py-2 flex items-center'>Resume</button>
             </a>
           </div>
         </div>
