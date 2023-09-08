@@ -27,7 +27,7 @@ import ProfilePic from '../assets/profilepic.jpeg'; // Replace with the actual U
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-auto md:h-screen bg-[#0a192f] text-gray-300'>
+    <div name='contact' className='w-full h-screen md:h-screen bg-[#0a192f] text-gray-300'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col md:flex-row w-full h-full'>
         {/* Contact Form */}
         <div className='flex flex-col md:w-1/2 md:mr-8 h-full'>
