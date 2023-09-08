@@ -21,7 +21,7 @@ const Certificates = () => {
                 className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white text-center'>
+                        <span className='text-xl font-bold text-center text-white'>
                             ADVANCED PYTHON
                         </span>
                         <div className='pt-8 text-center'>
@@ -39,7 +39,7 @@ const Certificates = () => {
                 className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white text-center'>
+                        <span className='text-xl font-bold text-white text-center'>
                             DATA STRUCTURES
                         </span>
                         <div className='pt-8 text-center'>
@@ -57,7 +57,7 @@ const Certificates = () => {
                 className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white text-center'>
+                        <span className='text-xl font-bold text-white text-center'>
                             MACHINE LEARNING
                         </span>
                         <div className='pt-8 text-center'>
@@ -74,7 +74,7 @@ const Certificates = () => {
                 className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white text-center'>
+                        <span className='text-xl font-bold text-white text-center'>
                             COMPUTER VISION
                         </span>
                         <div className='pt-8 text-center'>
@@ -91,7 +91,7 @@ const Certificates = () => {
                 className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white text-center'>
+                        <span className='text-xl font-bold text-white text-center'>
                             MATLAB BASICS
                         </span>
                         <div className='pt-8 text-center'>
@@ -107,7 +107,7 @@ const Certificates = () => {
                 className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white text-center'>
+                        <span className='text-xl font-bold text-white text-center'>
                             R PROGRAMMING
                         </span>
                         <div className='pt-8 text-center'>

@@ -7,6 +7,10 @@ import TAILWINDCSS from '../assets/tailwind.png'
 import JAVASCRIPT from '../assets/javascript.png'
 import PYTHON from '../assets/python.png'
 import MACHINELEARNING from '../assets/MachineLearning.png'
+import MATLAB from '../assets/Matlab.png'
+import MYSQL from '../assets/MySQL.png'
+import AZURE from '../assets/azure.jpg'
+import ANACONDA from '../assets/Anaconda.png'
 
 const Skills = () => {
   return (
@@ -27,7 +31,7 @@ const Skills = () => {
             </div>
             {/* container for all icons */}
             <div className='skills-list-container'>
-                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+                <div className='w-full grid grid-cols-2 sm:grid-cols-6 gap-4 text-center py-8'>
                     <div className='shadow-md shadow-[#0f0507] hover:scale-110 duration-300'>
                         <div className='flex flex-col items-center'>
                             <img className='mx-auto' src={OPENCV} alt="OPENCV icon" width={100} height={100}/>
@@ -91,6 +95,38 @@ const Skills = () => {
                             <img classname='mx-auto' src={MACHINELEARNING} alt="MACHINE LEARNING icon" width={100} height={100}/>
                             <p className='py-4'>
                                 MACHINE LEARNING
+                            </p>
+                        </div>
+                    </div>
+                    <div className='shadow-md shadow-[#0f0507] hover:scale-110 duration-300'>
+                        <div className='flex flex-col items-center'>
+                            <img classname='mx-auto' src={MATLAB} alt="FIREBASE icon" width={100} height={100}/>
+                            <p className='py-4'>
+                                MATLAB
+                            </p>
+                        </div>
+                    </div>
+                    <div className='shadow-md shadow-[#0f0507] hover:scale-110 duration-300'>
+                        <div className='flex flex-col items-center'>
+                            <img classname='mx-auto' src={MYSQL} alt="FIREBASE icon" width={100} height={100}/>
+                            <p className='py-4'>
+                                MYSQL
+                            </p>
+                        </div>
+                    </div>
+                    <div className='shadow-md shadow-[#0f0507] hover:scale-110 duration-300'>
+                        <div className='flex flex-col items-center'>
+                            <img classname='mx-auto' src={AZURE} alt="FIREBASE icon" width={100} height={100}/>
+                            <p className='py-4'>
+                                AZURE
+                            </p>
+                        </div>
+                    </div>
+                    <div className='shadow-md shadow-[#0f0507] hover:scale-110 duration-300'>
+                        <div className='flex flex-col items-center'>
+                            <img classname='mx-auto' src={ANACONDA} alt="FIREBASE icon" width={100} height={100}/>
+                            <p className='py-4'>
+                                ANACONDA
                             </p>
                         </div>
                     </div>
