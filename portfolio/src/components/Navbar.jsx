@@ -73,7 +73,7 @@ const Navbar = () => {
                 to set the FaBar, 
                 if the screen size is less the mid, 
                 then FaBar is set to True and onClick it will display the Menu */}
-                <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-auto bg-[#0a192f] flex flex-col justify-center items-center'}>
+                <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
                     {/* List Items <li></li> */}
                     <li className='py-4 text-4xl'>
                     <Link onClick={handleClick} to="home" smooth={true} offset={50} duration={500}>
