@@ -1,6 +1,7 @@
 import Home from "./components/Home";
 import Navbar from "./components/Navbar"
 import About from "./components/About";
+import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Blog from "./components/Blog";
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Education />
       <Skills />
       <Experience />
       <Blog />

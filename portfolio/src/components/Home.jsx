@@ -5,10 +5,10 @@ import {Link} from "react-scroll"
 export const Home = () => {
   return (
     // We will use the name='home' property for react smooth scroll
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full h-auto pb-6 bg-[#0a192f]'>
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-            <h1 className='text-[#fd726d] inline-flex justify-center text-5xl font-bold pb-4 pt-10'>
+            <h1 className='text-[#fd726d] inline-flex justify-center text-5xl font-bold pb-4 pt-20'>
                 Welcome to My Portfolio 😀
             </h1>
             <p className= 'text-[#fd726d] inline-flex justify-center text-6xl font-bold pb-6'>
