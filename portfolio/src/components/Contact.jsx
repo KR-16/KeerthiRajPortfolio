@@ -27,10 +27,10 @@ import ProfilePic from '../assets/profilepic.jpeg'; // Replace with the actual U
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen md:h-screen bg-[#0a192f] text-gray-300'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col md:flex-row w-full h-full'>
+    <div name='contact' className='w-full min-h-screen md:h-screen bg-[#0a192f] text-gray-300'>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col md:flex-row w-full'>
         {/* Contact Form */}
-        <div className='flex flex-col md:w-1/2 md:mr-8 h-full'>
+        <div className='flex flex-col md:w-1/2 md:mr-8 h-auto'>
           <div className='pb-2'>
             <p className='text-4xl font-bold inline border-b-4 border-[#fd726d] text-gray-300'>Contact</p>
             <p className='py-2'>Submit the form or email to keerthirajkv2@gmail.com</p>
