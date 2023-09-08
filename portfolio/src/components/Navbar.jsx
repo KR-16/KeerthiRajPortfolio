@@ -47,6 +47,11 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
+                    <Link to="certificates" smooth={true} offset={50} duration={500}>
+                        Certificates
+                    </Link>
+                </li>
+                <li>
                     <Link to="contact" smooth={true} offset={50} duration={500}>
                         Contact
                     </Link>
@@ -91,6 +96,11 @@ const Navbar = () => {
                     </Link>
                     </li>
                     <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to="certificates" smooth={true} offset={50} duration={500}>
+                        Certificates
+                    </Link>
+                    </li>
+                    <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="contact" smooth={true} offset={50} duration={500}>
                         Contact
                     </Link>
@@ -119,7 +129,7 @@ const Navbar = () => {
                         </li>
 
                         <li className='rounded-lg w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-[#485058]'>
-                            <a className='flex justify-between items-center w-full text-gray-30' href="https://github.com/KR-16/Resume/blob/main/Keerthi%20Raj%20Resume.pdf" target="_blank" rel="noopener noreferrer">
+                            <a className='flex justify-between items-center w-full text-gray-30' href="https://github.com/KR-16/Documents/blob/main/Resume/Keerthi%20Raj%20Resume.pdf" target="_blank" rel="noopener noreferrer">
                                 Resume <BsFillPersonLinesFill size={35}/>
                             </a>
                         </li>

@@ -45,12 +45,12 @@
   100% { transform: translateX(-100%); }
 }
 
-.skills-list-container {
+/* .skills-list-container {
   display: flex;
-  overflow: hidden; /* Ensure the content doesn't overflow its container */
-  position: relative; /* Required for absolute positioning of the skills list */
+  overflow: hidden; /* Ensure the content doesn't overflow its container 
+  position: relative; /* Required for absolute positioning of the skills list 
   animation: circularHorizontalMove 10s linear infinite;
-}
+} */
 
 
   

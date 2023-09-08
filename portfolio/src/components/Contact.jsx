@@ -52,7 +52,7 @@ const Contact = () => {
             <img src={ProfilePic} alt='Profile Pic' className='w-40 h-25 rounded my-24' /> {/* Adjust the width and height accordingly */}
           </div>
           <div className='flex justify-center items-center'>
-            <a href="https://github.com/KR-16/Resume/blob/main/Keerthi%20Raj%20Resume.pdf" target="_blank" rel='noopener noreferrer' download>
+            <a href="https://github.com/KR-16/Documents/blob/main/Resume/Keerthi%20Raj%20Resume.pdf" target="_blank" rel='noopener noreferrer' download>
               <button className='text-white border-2 hover:bg-[#fd726d] hover:border-[#fd726d] px-6 py-2 flex items-center'>Resume</button>
             </a>
           </div>
