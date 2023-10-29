@@ -44,6 +44,11 @@ const Blog = () => {
                                     BLOG
                                 </button>
                             </a>
+                            <a href="https://github.com/KR-16/Titanic_CSE5334/blob/main/titanic_model.ipynb" target='_blank' rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-5 py-2 m-2 bg-white text-gray-500 font-bold text-lg'>
+                                    CODE
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
