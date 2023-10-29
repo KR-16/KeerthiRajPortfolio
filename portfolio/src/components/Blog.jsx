@@ -1,5 +1,6 @@
 import React from 'react'
 import ART from '../assets/art-1.jpg'
+import TITANIC from '../assets/titanic.jpg'
 
 const Blog = () => {
   return (
@@ -22,6 +23,23 @@ const Blog = () => {
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://rstrokes.art.blog/" target='_blank' rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-5 py-2 m-2 bg-white text-gray-500 font-bold text-lg'>
+                                    BLOG
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style={{backgroundImage:`url(${TITANIC})`,backgroundSize: 'contain', backgroundPosition: 'center', borderRadius: '20px'}} 
+                className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            TITANIC DATASET
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://medium.com/@keerthirajkv2/titanic-machine-learning-from-disaster-9474cda71c0d" target='_blank' rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-5 py-2 m-2 bg-white text-gray-500 font-bold text-lg'>
                                     BLOG
                                 </button>
