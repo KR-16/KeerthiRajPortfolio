@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa"
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaKaggle} from "react-icons/fa"
 import {HiOutlineMail} from "react-icons/hi"
 import {BsFillPersonLinesFill} from "react-icons/bs"
 import Logo from "../assets/logo.gif"
@@ -129,6 +129,12 @@ const Navbar = () => {
                         <li className='rounded-lg w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-[#000000]'>
                             <a className='flex justify-between items-center w-full text-white-300' href="https://github.com/KR-16" target="_blank" rel="noopener noreferrer">
                                 GitHub <FaGithub size={35}/>
+                            </a>
+                        </li>
+                        {/* Kaggle */}
+                        <li className='rounded-lg w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-[#FFFFFF]'>
+                            <a className='flex justify-between items-center w-full text-blue-700/80' href="https://www.kaggle.com/kr2002" target="_blank" rel="noopener noreferrer">
+                                Kaggle <FaKaggle size={35}/>
                             </a>
                         </li>
                         {/* Email */}
