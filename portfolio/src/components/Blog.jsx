@@ -75,6 +75,28 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
+
+                <div style={{backgroundImage:`url(${FLOWERS})`,backgroundSize: 'contain', backgroundPosition: 'center', borderRadius: '20px'}} 
+                className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            TEXT DETECTION - AI / HUMAN
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://medium.com/@keerthirajkv2/unmasking-the-writers-a-dive-into-detecting-language-models-vs-8f910963bbf5" target='_blank' rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-5 py-2 m-2 bg-white text-gray-500 font-bold text-lg'>
+                                    BLOG
+                                </button>
+                            </a>
+                            <a href="https://github.com/KR-16/FlowersClassification/blob/main/VGG%20-19%20Model%20331%20Resolution.ipynb" target='_blank' rel="noopener noreferrer">
+                                <button className='text-center rounded-lg px-5 py-2 m-2 bg-white text-gray-500 font-bold text-lg'>
+                                    CODE
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
