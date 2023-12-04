@@ -2,6 +2,7 @@ import React from 'react'
 import ART from '../assets/art-1.jpg'
 import TITANIC from '../assets/titanic.jpg'
 import FLOWERS from '../assets/Flowers.png'
+import NAIVEBAYES from '../assets/naive bayes intro.png'
 
 const Blog = () => {
   return (
@@ -76,7 +77,7 @@ const Blog = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundSize: 'contain', backgroundPosition: 'center', borderRadius: '20px'}} 
+                <div style={{backgroundImage:`url(${NAIVEBAYES})`,backgroundSize: 'contain', backgroundPosition: 'center', borderRadius: '20px'}} 
                 className='shadow-lg shadow-[#0a192f] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
