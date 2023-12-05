@@ -2,7 +2,7 @@ import React from 'react'
 import ART from '../assets/art-1.jpg'
 import TITANIC from '../assets/titanic.jpg'
 import FLOWERS from '../assets/Flowers.png'
-import NAIVEBAYES from '../assets/naive bayes intro.png'
+import NAIVEBAYES from '../assets/naivebayesintro.png'
 
 const Blog = () => {
   return (
