@@ -12,10 +12,10 @@ export const Home = () => {
                 Welcome to My Portfolio 😀
             </h1>
             <p className= 'text-[#fd726d] inline-flex justify-center text-6xl font-bold pb-6'>
-                KEERTHI RAJ VASIREDDY YUVARAJ
+                KEERTHI RAJ
             </p>
             <p className = 'text-2xl sm:text-3xl justify-center font-bold text-[#fbfcf8] pb-4'>
-                Computer Science Graduate specializing in Software Engineering and Data Science
+                Computer Science Graduate specializing in Artificial Intelligence and DataBases
             </p>
             <p className='text-xl sm:text-2xl justify-center font-bold text-[#fbfcf8] pb-4'>
                 Feel free to explore my work and get in touch with me for any inquiries or collaboration opportunities using the contact form
